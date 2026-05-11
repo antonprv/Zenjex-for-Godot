@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" width="300" alt="Zenjex for Godot logo">
+  <img src="assets/logo.png" width="500" alt="Zenjex for Godot logo">
 </div>
 
 ---
