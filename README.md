@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="assets/logo.png" width="300" alt="Zenjex for Godot logo">
+</div>
+
+---
+
 # ZenjexGodot - Dependency Injection Framework for Godot
 
 A modern, Zenject-inspired dependency injection framework for Godot 4.x with C#. Designed for developers who love clean architecture, fluent APIs, and explicit dependency management.
