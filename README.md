@@ -69,8 +69,10 @@ public partial class AppInstaller : RootInstaller
     }
 }
 ```
-
-2. Attach `AppInstaller` to a Node in your root scene (make it persistent across scenes)
+2. Go to Project -> Project Settings -> Globals -> Autoload
+3. Add DiContainer script there
+4. Then add AppInstaller that you've just created.
+5. You can nest more installers as nodes, directly added to scenes, thus creating scoped installers. Just make sure that AppInstaller, placed as Node, is first in the hirearchy.
 
 ### 2. Use Injection in Your Services
 
