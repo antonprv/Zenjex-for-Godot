@@ -1,9 +1,8 @@
 // ZenjexGodot - Zenject-like DI framework for Godot
 
+using Godot;
 using System;
 using System.Collections.Generic;
-
-using Godot;
 
 namespace ZenjexGodot;
 
@@ -50,7 +49,7 @@ public abstract partial class RootInstaller : Node
 
     private bool _initialized;
 
-    public override void _Ready()
+    public override void _EnterTree()
     {
         if (_initialized)
             return;

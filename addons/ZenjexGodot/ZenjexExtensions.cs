@@ -1,9 +1,7 @@
 // ZenjexGodot - Zenject-like DI framework for Godot
 
-using System;
-using System.Collections.Generic;
-
 using Godot;
+using System.Collections.Generic;
 
 namespace ZenjexGodot;
 
@@ -128,7 +126,7 @@ public static class GodotDiUtils
         where T : class
     {
         var nodes = FindNodesOfType<T>(sceneRoot);
-        
+
         if (nodes.Count == 0)
         {
             GD.PushWarning($"[ZenjexGodot] No nodes of type {typeof(T).Name} found in scene");
