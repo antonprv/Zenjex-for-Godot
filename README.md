@@ -8,14 +8,14 @@ A modern, Zenject-inspired dependency injection framework for Godot 4.x with C#.
 
 ## Features
 
-✅ **Fluent Binding API** — Configure services with clean, chainable syntax
-✅ **Single [Inject] Attribute** — One attribute for fields, properties, and methods  
-✅ **Lifetime Management** — Singleton and Transient patterns  
-✅ **Keyed Services** — Register multiple implementations of the same interface  
-✅ **Factory Methods** — Use custom factories for complex instantiation  
-✅ **Automatic Injection** — InjectableBehaviour base class handles injection automatically  
-✅ **Global Composition Root** — RootInstaller provides predictable initialization order  
-✅ **No Magic, No Scanning** — Explicit registration, minimal reflection overhead  
+✅ **Fluent Binding API** - Configure services with clean, chainable syntax
+✅ **Single [Inject] Attribute** - One attribute for fields, properties, and methods  
+✅ **Lifetime Management** - Singleton and Transient patterns  
+✅ **Keyed Services** - Register multiple implementations of the same interface  
+✅ **Factory Methods** - Use custom factories for complex instantiation  
+✅ **Automatic Injection** - InjectableBehaviour base class handles injection automatically  
+✅ **Global Composition Root** - RootInstaller provides predictable initialization order  
+✅ **No Magic, No Scanning** - Explicit registration, minimal reflection overhead  
 
 ---
 
@@ -295,11 +295,11 @@ private ILogger _logger;
 
 ## Migrating from Zenjex (Unity)
 
-1. **Replace `[Zenjex]` with `[Inject]`** — same functionality, cleaner
-2. **`ZenjexBehaviour` → `InjectableBehaviour`** — same pattern
-3. **`ProjectRootInstaller` → `RootInstaller`** — same lifecycle
-4. **Fluent API is 1:1** — binding syntax unchanged
-5. **No Reflex** — faster resolution, smaller binary footprint
+1. **Replace `[Zenjex]` with `[Inject]`** - same functionality, cleaner
+2. **`ZenjexBehaviour` -> `InjectableBehaviour`** - same pattern
+3. **`ProjectRootInstaller` -> `RootInstaller`** - same lifecycle
+4. **Fluent API is 1:1** - binding syntax unchanged
+5. **No Reflex** - faster resolution, smaller binary footprint
 
 ---
 
