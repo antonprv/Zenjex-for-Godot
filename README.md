@@ -8,7 +8,7 @@
 
 A modern, Zenject-inspired dependency injection framework for Godot 4.x with C#. Designed for developers who love clean architecture, fluent APIs, and explicit dependency management.
 
-**Created from:** Refactored Zenjex (Unity) + SharpDI (Godot) by Anton Piruev, 2026.
+**Created from:** Refactored Zenjex (Unity) by Anton Piruev, 2026.
 
 Tested in Godot 4.6.2 stable
 ---
