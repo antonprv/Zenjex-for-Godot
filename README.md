@@ -69,12 +69,12 @@ public partial class AppInstaller : RootInstaller
     }
 }
 ```
-2. Go to Project -> Project Settings -> Globals -> Autoload
-3. Add DiContainer script there
-4. Then add AppInstaller that you've just created.
-5. You can nest more installers as nodes, directly added to scenes, thus creating scoped installers. Just make sure that AppInstaller, placed as Node, is first in the hirearchy.
 
-### 2. Use Injection in Your Services
+### 2. Go to Project -> Project Settings -> Globals -> Autoload
+### 3. Add DiContainer script there
+### 4. Then add AppInstaller that you've just created.
+
+### 5. Use Injection in Your Services
 
 ```csharp
 using Godot;
@@ -99,7 +99,7 @@ public partial class MyGameController : InjectableBehaviour
 }
 ```
 
-### 3. Manual Injection (Without Base Class)
+### 6. Manual Injection (Without Base Class)
 
 ```csharp
 public partial class SomeNode : Node
